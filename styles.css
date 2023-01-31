@@ -177,7 +177,7 @@ nav:hover {
 .item-link a:hover, .item-link .active {
     color: white;
     border-radius: 10px;
-    background: rgb(75, 75, 179);
+    background: #2C74B3;
 }
 
 .box {
