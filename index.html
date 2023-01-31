@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dashboard Web Design</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins&family=Ubuntu&display=swap" rel="stylesheet">
+    <link rel="icon" type="image/x-icon" href="/images/dash-icon.png">
+    <!-- Google Chart Link -->
+    <script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
+</head>
+
+<body>
+    <div class="wrapper">
+        <nav>
+            <div class="navbar">
+                <div class="logo">
+                    <img src="/images/logo.png" alt="">
+                    <span>The Tasty Treasure</span>
+                </div>
+
+                <a href="#"><i class="fa-brands fa-dashcube"></i>Dashboard</a>
+                <a href="#"><i class="fa-solid fa-star"></i>Important</a>
+                <a href="#"><i class="fa-solid fa-calendar-days"></i>Planned</a>
+                <a href="#"><i class="fa-solid fa-list-check"></i>Tasks</a>
+                <a href="#"><i class="fa-solid fa-spinner"></i>Progress</a>
+
+                <a href="" class="logout">
+                    <i class="fa-solid fa-right-from-bracket"></i>Logout
+                </a>
+            </div>
+        </nav>
+        <div class="main-body">
+            <div class="header">
+                <span>Welcome back, Shubham</span>
+                <h1>Dashboard</h1>
+            </div>
+            <div class="following-wrapper">
+                <div class="card">
+                    <img src="/images/ins.png" alt="" />
+                    <h3>320k</h3>
+                    <span>Followers</span>
+                    <div class="more">
+                        <button>. .</button>
+                    </div>
+                </div>
+                <div class="card">
+                    <img src="/images/fb.png" alt="" />
+                    <h3>545k</h3>
+                    <span>Followers</span>
+                    <div class="more">
+                        <button>. .</button>
+                    </div>
+                </div>
+                <div class="card">
+                    <img src="/images/yt.png" alt="" />
+                    <h3>270k</h3>
+                    <span>Followers</span>
+                    <div class="more">
+                        <button>. .</button>
+                    </div>
+                </div>
+                <div class="card">
+                    <img src="/images/twit.png" alt="" />
+                    <h3>453k</h3>
+                    <span>Followers</span>
+                    <div class="more">
+                        <button>. .</button>
+                    </div>
+                </div>
+                <div class="card">
+                    <img src="/images/ln.png" alt="" />
+                    <h3>238k</h3>
+                    <span>Followers</span>
+                    <div class="more">
+                        <button>. .</button>
+                    </div>
+                </div>
+            </div>
+            <div class="graphbox">
+                <div id="columnchart_material" style="width: 800px; height: 350px;"></div>
+            </div>
+        </div>
+        <div class="sidebar">
+            <div class="item-link">
+                <a href="#" class="active">Activities</a>
+                <a href="#" class="online">Online</a>
+            </div>
+            <div class="comment">
+                <div class="box">
+                    <img src="/images/1.jpg" alt="" />
+                    <div class="body-text">
+                        <h4>Blake Spencer</h4>
+                        <p>Advisor at PhotonZ</p>
+                        <span>10 min ago</span>
+                    </div>
+                </div>
+                <div class="box">
+                    <img src="/images/2.jpg" alt="" />
+                    <div class="body-text">
+                        <h4>David Marc</h4>
+                        <p>Works at WhizPay</p>
+                        <span>18 min ago</span>
+                    </div>
+                </div>
+                <div class="box">
+                    <img src="/images/3.jpg" alt="" />
+                    <div class="body-text">
+                        <h4>Carla Fischer</h4>
+                        <p>Barista at Starbucks</p>
+                        <span>14 min ago</span>
+                    </div>
+                </div>
+                <div class="box">
+                    <img src="/images/4.jpg" alt="" />
+                    <div class="body-text">
+                        <h4>Steven Grant</h4>
+                        <p>Wincon Infrastructure Pvt Ltd</p>
+                        <span>21 min ago</span>
+                    </div>
+                </div>
+                <div class="box">
+                    <img src="/images/5.jpg" alt="" />
+                    <div class="body-text">
+                        <h4>Savannah Ori</h4>
+                        <p>Web Developer</p>
+                        <span>27 min ago</span>
+                    </div>
+
+                </div>
+                <div class="box">
+                    <img src="/images/6.jpg" alt="" />
+                    <div class="body-text">
+                        <h4>Priscilla Yu</h4>
+                        <p>iOS Developer at Tindog</p>
+                        <span>41 min ago</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    </div>
+    <script src="/chart.js"></script>
+</body>
+
+</html>

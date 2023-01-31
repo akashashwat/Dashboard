@@ -1,0 +1,213 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: none;
+    border: none;
+    text-decoration: none;
+    
+}
+
+body {
+    background-color: #F5F5F5;
+    font-family: "Poppins", sans-serif;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    padding: 0.1rem;
+    overflow: hidden;
+    margin-bottom: 2rem;
+}
+
+.logo img {
+    width: 45px;
+    height: 45px;
+    border-radius: 50%;
+   
+}
+
+.logo span {
+    font-size: 20px;
+    font-weight: bold;
+    padding-left: 15px;
+    text-transform: uppercase;
+    color: #272727;
+}
+
+.wrapper {
+    display: flex;
+}
+
+nav {
+    width: 110px;
+    height: 100vh;
+    background: #fff;
+    transition: 0.5s ease-out;
+    overflow: hidden;
+}
+
+nav:hover {
+    width: 280px;
+}
+
+.navbar {
+    padding: 1rem;
+    position: relative;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+    transition: 0.5s ease-out;
+}
+
+.navbar a {
+    display: flex;
+    align-items: center;
+    padding: 1rem;
+    font-weight: 500;
+    overflow: hidden;
+    color: #272727;
+}
+
+.navbar i {
+    font-size: 1.2rem;
+    color: rgb(104, 103, 103);
+    margin: 0 1.8rem 0 0.3rem;
+}
+
+.navbar a:hover {
+    background: rgb(238, 237, 237);
+    border-radius: 10px;
+    transition: 0.3s ease-out;
+    
+}
+
+.logout {
+    position: absolute;
+    bottom: 20px;
+}
+
+.logout i {
+    padding-right: 1rem;
+   
+}
+
+/* Main Body */
+
+.main-body {
+    margin-top: 8px;
+    padding: 1.5rem 2rem;
+    width: 100%;
+}
+
+
+.header h1 {
+    margin: 1.3rem 0;
+    color: rgb(68, 68, 68);
+}
+
+.following-wrapper {
+    display: flex;
+    justify-content: space-evenly;
+
+}
+
+.card {
+    padding: 1rem;
+    border: 3px solid white;
+    border-radius: 10px;
+    width: 180px;
+}
+
+.card img {
+    width: 50px;
+    margin-bottom: 10px;
+}
+
+.card h3 {
+    font-size: 2rem;
+}
+
+.card span {
+    font-size: 12px;
+    color: grey;
+}
+
+.card .more {
+    display: flex;
+    justify-content: end;
+}
+
+.more button {
+    font-size: 1rem;
+    background: none;
+    font-weight: bold;
+    cursor: pointer;
+
+}
+
+.card:hover {
+    background: white;
+    transition: 0.5s ease-out;
+   
+}
+
+.sidebar {
+    width: 350px;
+    padding: 2rem;
+    background: white;
+}
+
+.sidebar .item-link {
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem;
+    background: #e5e5e7;
+    border-radius: 20px;
+    gap: 10px;
+}   
+
+.item-link a {
+    padding: 10px 1rem;
+    caret-color: grey;
+}
+
+.item-link a:hover, .item-link .active {
+    color: white;
+    border-radius: 10px;
+    background: rgb(75, 75, 179);
+}
+
+.box {
+    display: flex;
+    gap: 10px;
+    margin-top: 2rem;
+}
+
+
+.box img {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+}
+
+.body-text p {
+    font-size: 12px;
+    color: grey;
+    font-family: "Ubuntu", sans-serif;
+}
+
+.body-text span {
+    font-size: 12px;
+    color: grey;
+    font-family: "Ubuntu", sans-serif;
+}
+
+.graphbox {
+    background: white;
+    border-radius: 20px;
+    padding: 2rem;
+    margin-top: 20px;
+}
